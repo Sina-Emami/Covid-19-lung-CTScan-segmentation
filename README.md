@@ -19,10 +19,13 @@ Histogram equalization has been used since this method usually increases the glo
 
 
 <h3>Data being cropped</h3>
+
 ![cropped_data](Doc/cropped_data.png) 
   
 <h3>Result</h3>
+
 ![First_test_result](Doc/histogram.png) 
+
 ![second_test_result](Doc/output2.png) 
 
 
