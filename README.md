@@ -11,6 +11,7 @@
 * The model has been tested with DICOM images format and had a perfect result. Since the dataset is private now, it is not possible to share the result. 
 
 <h3>Brief look at data</h3>
+
 ![Data](Doc/data.png) 
  
 <h3>Histogram equalization</h3>
@@ -25,8 +26,8 @@ Histogram equalization has been used since this method usually increases the glo
   
 <h3>Result</h3>
 
-![First_test_result](Doc/output1.png) 
+![First_test_result](Doc/test1.png) 
 
-![second_test_result](Doc/output2.png) 
+![second_test_result](Doc/test2.png) 
 
 
