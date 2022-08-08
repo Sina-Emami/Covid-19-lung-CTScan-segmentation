@@ -24,7 +24,7 @@ Histogram equalization has been used since this method usually increases the glo
   
 <h3>Result</h3>
 
-![First_test_result](Doc/histogram.png) 
+![First_test_result](Doc/output1.png) 
 
 ![second_test_result](Doc/output2.png) 
 
