@@ -2,12 +2,13 @@
 
 ## Summary of project:
 * The purpose of this project is to segment and specify parts of the lungs which are infected due to Covid-19.
-* The data which I have used is from a  <a href="https://www.kaggle.com/datasets/andrewmvd/covid19-ct-scans">Kaggle paget</a>.
-
+* The data which I have used is from a  <a href="https://www.kaggle.com/datasets/andrewmvd/covid19-ct-scans">Kaggle page</a>.
+* Images are in NifTi format.
 * For better feature extraction histogram equalization has been used, and each slice of the ct-scan has been cropped over the lungs.
 * The metric by which the model has been trained with it is the sum of the weighted bce dice loss and surface loss keras.
 * **UNet** is the model that has been chosen.
 * The testset got the **93% for AUC**, **0.93% sensitivity**, and **0.99% specificity**.
+* The model has been tested with DICOM image format and had a perfect result. Since the dataset is private now, it is not possible to share the result. 
 
 <h3>Brief look at data</h3>
 ![Data](Doc/data.png) 
