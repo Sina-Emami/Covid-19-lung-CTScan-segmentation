@@ -7,7 +7,7 @@
 * For better feature extraction histogram equalization has been used, and each slice of the ct-scan has been cropped over the lungs.
 * The metric by which the model has been trained with it is the sum of the weighted bce dice loss and surface loss keras.
 * **UNet** is the model that has been chosen.
-* The testset got the 93% for AUC, 0.93% sensitivity, and 0.99% specificity.
+* The testset got the **93% for AUC**, **0.93% sensitivity**, and **0.99% specificity**.
 
 <h3>Brief look at data</h3>
 ![Data](Doc/data.png) 
@@ -22,7 +22,7 @@ Histogram equalization has been used since this method usually increases the glo
 ![cropped_data](Doc/cropped_data.png) 
   
 <h3>Result</h3>
-![First_test_result](Doc/output1.png) 
+![First_test_result](Doc/histogram.png) 
 ![second_test_result](Doc/output2.png) 
 
 
