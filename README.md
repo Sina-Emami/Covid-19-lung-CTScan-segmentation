@@ -32,3 +32,7 @@ Histogram equalization has been used since this method usually increases the glo
 ![second_test_result](Doc/test2.png) 
 
 
+## Test with Dicom files:
+
+The CT_MD_test_modelh5.ipynb file is a file in which the model has been tested with some Dicom files from a git repository. Unfortunately, the repository is private now which is why I have only pushed my notebook code.
+
